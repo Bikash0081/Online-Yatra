@@ -1,0 +1,66 @@
+/* footer start ............................................ */
+footer {
+    background-color: #2f2f2f;
+  }
+  footer .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .row .col-lg-4 {
+    text-align: center;
+  }
+  .footer h3 {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    position: relative;
+    
+  }
+  .footer h3 li{
+    font-style: none;
+  }
+  .footer h3::after {
+    content: "";
+    position: absolute;
+    bottom: -10%;
+    left: 60%;
+    width: 4vw;
+  }
+  .footer .about h3::after {
+    width:20%;
+    height: 3px;
+    position: absolute;
+    bottom: -10%;
+    left: 25%;
+  }
+  .footer p {
+    color: rgb(110, 110, 110);
+    text-align: left;
+  }
+  .footer .list-group-item {
+    background-color: transparent;
+    color: rgb(110, 110, 110);
+    border: 0;
+    padding-left: 80px;
+  }
+  .footer .list-group-item:hover {
+    color: rgb(255, 255, 255);
+  }
+  .footer i {
+    color: rgb(110, 110, 110);
+    font-style: none;
+  }
+  .footer i:hover {
+    color: white;
+  }
+  .lastpart {
+    background-color: #505050;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lastpart h4 {
+    font-size: 20px;
+    color: #e7e7e7;
+  }
+  /* footer end........................................ */

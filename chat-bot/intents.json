@@ -1,0 +1,229 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    
+    {
+      "tag": "payments, cards, digital wallets",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Digital wallets?",
+        "Do you accept Mastercard?",
+        "Can I pay with E-Sewa?",
+        "Can I pay with Khalti?",
+        "Can I pay with Visa Card?",
+        "Are you cash only?"
+        
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and E-sewa, khalti, fonepay etc",
+        "We accept most major Visa cards, and Digital wallets",
+        "Yes We accept, E-sewa, Khalti, Visa Cards,"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "who",
+    "patterns": [
+      "Who are you?",
+      "What are you?",
+      "Tell me who are you?",
+      "What do you do?",
+      "What can you do?",
+      "How can you help me?"
+    ],
+    "responses": [
+      "I am yeti to guide you and answer your questions. Thank You!!",
+      "I am active AI chat bot",
+      "I help you to help booking bus tickets",
+      "I can answer your questions, guide you, tell more about the website, tell you some jokes maybe?"
+    ]
+    },
+    {
+      "tag": "Ac",
+    "patterns": [
+      "Does all the buses have ac?",
+      "Do the bus has ac?",
+      "Is there ac in the bus?"
+    ],
+    "responses": [
+      "All the bus do not have Ac. Some buses have them. but you can find out in the bus detail!",
+      "Some buses has it and some do not."
+    ]
+    },
+    {
+      "tag": "drivers,driver",
+    "patterns": [
+      "are drivers helpful?",
+      "Are drivers experienced?",
+      "Does the drivers have driving licesnse",
+      "Are drivers friendly?",
+      "what is the age of driver?"
+
+    ],
+    "responses": [
+      "All the drivers are friendly and helpful.",
+      "Yes all the drivers have driving licensce. They cannot work in our company if they don have proper document",
+      "All our drivers are well experienced to drive for long hours.",
+      "the age of our drivers are between early twenties(21) to early fourties(44)"
+    ]
+    },
+    {
+      "tag": "conductor",
+    "patterns": [
+      "Are there any conductors in the bus?",
+      "How are the conductors?",
+      "What does conductors do?",
+      "How can conductors help me?"
+
+    ],
+    "responses": [
+      "yes there are at least one helping conductor in the bus.",
+      "All the conductors are friendly and helpful",
+      "The conductors verify your tickets and tell you your destination when arrived."
+    ]
+    },
+    {
+      "tag": "music,music type",
+    "patterns": [
+      "Do the bus have music system?",
+      "is there music system in the bus?",
+      "What music does the bus play?"
+      
+    ],
+    "responses": [
+      "Yes all the buses have music system",
+      "Usually the bus plays english, hindi and Nepali songs. But you can change it by telling to the helping conductor"
+    ]
+    },
+    {
+      "tag": "bus,buses",
+    "patterns": [
+      "What are the features of bus?",
+      "Are the bus clean?",
+      "Is there wifi in the bus?",
+      "Is there comfortable seat in the bus?",
+      "Is there toilet in the bus?",
+      "Is there TV in the bus?",
+      "Is there power outlets in the bus?"
+
+    ],
+    "responses": [
+      "bus features- music, tv, AC, Power outlets to charge your devices",
+      "Bus do not have Wifi",
+      "Bus has comfortable folding seats.",
+      "No toilet in the bus"
+    ]
+    },
+    {
+      "tag": "book ticket",
+    "patterns": [
+      "How can I book Tickets",
+      "What is the process to book Ticket?",
+      "How to book tickets"
+    ],
+    "responses": [
+      "Please refer to FAQ page"
+    ]
+    },
+    {
+      "tag": "Safe,safety",
+    "patterns": [
+      "How safe are the buses?",
+      "Are the bus safe?"
+    ],
+    "responses": [
+      "Our bus buses are very safe."
+    ]
+    },
+    {
+      "tag": "bus type,type of buses",
+    "patterns": [
+      "What are the bus types?",
+      "How many bus type are there",
+      "How many types of buses are there?"
+    ],
+    "responses": [
+      "AC and Non-AC",
+      "There are two types of bus.AC and Non-AC"
+    ]
+    },
+    {
+      "tag": "book-ticket,tickets,amount of tickets",
+    "patterns": [
+      "how many tickets can i book?",
+      "",
+      "How many types of buses are there?"
+    ],
+    "responses": [
+      "you can book as many tickets as you can if it is available"
+    ]
+    },
+    {
+      "tag": "website,about website,website activity",
+    "patterns": [
+      "what is this website for?",
+      "what does this website do",
+      "what do you sale?"
+    ],
+    "responses": [
+      "the website is for booking bus tickets",
+      "this website book bust tickets",
+      "we book tickets for bus"
+    ]
+    },
+    {
+      "tag": "support,customer support,support number,contact number",
+    "patterns": [
+      "What is contact number?",
+      "contact number",
+      "how to contact customer service?"
+    ],
+    "responses": [
+      "our contact number is 9812131415",
+      "call this number for customer support. 9812131415",
+      "dial 9812131415 for support"
+    ]
+    }
+  ]
+}
